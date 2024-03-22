@@ -21,6 +21,10 @@ a = hailstone(1)
 '''
 def fibonacci(n):
     """ To calculate the fibonacci series nth
+    >>> fibonacci(5)
+    3
+    >>> fibonacci(7)
+    8
     """
     pred, curr = 0, 1
     if n == 1:
@@ -37,3 +41,4 @@ def fibonacci(n):
         return result
 fib = fibonacci(9)
 print(fib)
+
